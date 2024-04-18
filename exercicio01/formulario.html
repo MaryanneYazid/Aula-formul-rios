@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        body{
+            color:rgb(10, 9, 104);
+        }
+    </style>
+</head>
+<body>
+    <h1> Cadastro Pessoa</h1>
+    <form action="recebeDados.php" method="post">
+        Nome: <input type="text" name="nome" size="50" ><br> <br>
+        Endereço: <input type="text" name="endereço"> <br> <br>
+        Senha: <input type="password" name="senha"><br> <br>
+        Hora: <input type="time" name="hora" > <br><br>
+        email: <input type="email" name="email" >
+        cor: <input type="color" name="cor"  >
+        Arquivo: <input type="file" name= "arquivo"><br> <br>
+        Data: <input type="date" name="data"><br> <br>
+        Imagem: <input type="image" src="https://t4.ftcdn.net/jpg/00/64/97/37/360_F_64973753_Pc5FMIpsR2bzXJH3juHuRhiKTM60QdXf.jpg" alt=""><br> <br>
+        Nível de satisfação: <input type="range" name="satisfação" >
+        Nascimento: <input type="datetime-local" name="nascimento" >
+        Cursos: <br>
+        <input type="radio" name="curso" value="TI"> TI<br> 
+        <input type="radio" name="curso" value="MC">MC <br>
+        <input type="radio" name="curso" value="AD">AD <br> <br>
+        Disciplinas: <br> <br>
+        <input type="checkbox" name="LV1">LV1<br>
+        <input type="checkbox" name="Redes">Redes<br>
+        <input type="checkbox" name="MPE">MPE<br>
+        <input type="checkbox" name="LV1">MC<br> <br>
+        Estado: <br> <br>
+       <select name="estado" >
+        <option value=></option>
+        <option value="DF">DF</option>
+        <option value="PR">PR</option>
+        <option value="MG">MG</option>
+        <option value="RS">RS</option>
+        <option value="AL">AL</option>
+        
+       </select><br>
+       Observações:<br>
+       <textarea name="observações" cols="10" rows="5"></textarea> <br>
+       <input type="submit" value="Cadastrar"> <br>
+
+
+
+    
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+
+    </form>
+</body>
+
+</html>  
